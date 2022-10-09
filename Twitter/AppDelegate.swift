@@ -43,8 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        TwitterAPICaller.client?.handleOpenUrl(url: url)
-        return true
+            TwitterAPICaller.client?.handleOpenUrl(url: url)
+            return true
     }
 
 }
